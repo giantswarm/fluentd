@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "fluentd", "1.10.1"
-gem "oj", "3.8.1"
+gem "oj", "3.10.6"
 gem "fluent-plugin-multi-format-parser", "~> 1.0.0"
 gem "fluent-plugin-concat", "~> 2.4.0"
 gem 'fluent-plugin-array-spin', '~> 0.1.0'
