@@ -10,6 +10,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v1.10.2]
 
+### Changed
+
 - Update fluentd image to 1.10.2
 
 
@@ -18,7 +20,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v1.10.1]
 
-- Creating fluentd 1.10.1 image
+### Added
 
+- Creating fluentd 1.10.1 image
 
 [1.10.1]: https://github.com/giantswarm/fluentd/tree/v1.10.1
