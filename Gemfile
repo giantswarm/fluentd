@@ -22,7 +22,7 @@ gem 'fluent-plugin-cloudwatch-logs', '~> 0.9.3'
 gem 'fluent-plugin-s3', '~> 1.1', '>= 1.1.4'
 
 # Azure Loganalytics plugins
-gem 'fluent-plugin-azure-loganalytics', '~> 0.4.2'
+gem 'fluent-plugin-azure-loganalytics', '~> 0.7.0'
 
 # Elasticsearch plugins
 gem 'fluent-plugin-elasticsearch', '~> 4.0', '>= 4.0.7'
