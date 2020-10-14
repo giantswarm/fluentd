@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "fluentd", "1.10.1"
+gem "fluentd", "1.11.4"
 gem "oj", "3.8.1"
 gem "fluent-plugin-multi-format-parser", "~> 1.0.0"
 gem "fluent-plugin-concat", "~> 2.4.0"
