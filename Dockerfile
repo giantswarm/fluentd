@@ -1,4 +1,4 @@
-FROM fluent/fluentd:v1.10.1-debian-1.0
+FROM fluent/fluentd:v1.12-debian-1
 
 LABEL maintainer="Eduardo Silva <eduardo@treasure-data.com>"
 USER root
@@ -26,7 +26,7 @@ RUN buildDeps="sudo make gcc g++ libc-dev libffi-dev" \
                   $buildDeps \
  && rm -rf /var/lib/apt/lists/* \
     && gem sources --clear-all \
-    && rm -rf /tmp/* /var/tmp/* /usr/lib/ruby/gems/*/cache/*.gem  
+    && rm -rf /tmp/* /var/tmp/* /usr/lib/ruby/gems/*/cache/*.gem
 
 # Copy configuration files
 COPY ./conf/fluent.conf /fluentd/etc/
