@@ -8,7 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- Bump base image to v1.12
+## [v1.12.0]
+
+- Bump base image to v1.12.0
 
 
 ## [v1.10.1]
@@ -16,4 +18,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Creating fluentd 1.10.1 image
 
 
-[1.10.1]: https://github.com/giantswarm/fluentd/tree/master
+[Unreleased] https://github.com/giantswarm/fluentd/tree/master
+[1.12.0]: https://github.com/giantswarm/fluentd/tree/v1.12.0
+[1.10.1]: https://github.com/giantswarm/fluentd/tree/v1.10.1
