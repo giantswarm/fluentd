@@ -1,0 +1,30 @@
+version: 2
+updates:
+- package-ecosystem: docker
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  reviewers:
+  - omegas27
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  reviewers:
+  - omegas27
+  ignore:
+  - dependency-name: oj
+    versions:
+    - 3.11.3
+    - 3.11.4
+  - dependency-name: fluentd
+    versions:
+    - 1.12.1
+    - 1.12.2
+  - dependency-name: fluent-plugin-prometheus
+    versions:
+    - 2.0.0
