@@ -16,7 +16,7 @@ gem "ffi"
 gem "fluent-plugin-systemd", "~> 1.0.1"
 
 # Cloudwatch plugins
-gem 'fluent-plugin-cloudwatch-logs', '~> 0.13.0'
+gem 'fluent-plugin-cloudwatch-logs', '~> 0.14.0'
 
 # s3 plugins
 gem 'fluent-plugin-s3', '~> 1.1', '>= 1.1.4'
