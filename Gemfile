@@ -3,7 +3,7 @@ source "https://rubygems.org"
 gem "fluentd", "1.12.0"
 gem "oj", "3.11.2"
 gem "fluent-plugin-multi-format-parser", "~> 1.0.0"
-gem "fluent-plugin-concat", "~> 2.4.0"
+gem "fluent-plugin-concat", "~> 2.5.0"
 gem 'fluent-plugin-array-spin', '~> 0.1.0'
 gem "fluent-plugin-grok-parser", "~> 2.6.0"
 gem "fluent-plugin-prometheus", "~> 1.8.5"
