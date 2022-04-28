@@ -8,7 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- Upgrade Gem plugin fluent-plugin-kubernetes_metadata_filter from 2.6.0 to 2.10.0
+- Upgrade fluentd from 1.12 to 1.14
+- Upgrade Gem plugins:
+  - oj from 3.11 to 3.13
+  - fluent-plugin-concat from 2.4 to 2.5
+  - fluent-plugin-prometheus from 1.8 to 2.0
+  - fluent-plugin-kubernetes_metadata_filter from 2.6 to 2.10
+
 
 ## [v1.12.0]
 
