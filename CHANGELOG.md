@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Upgrade Gem plugin fluent-plugin-kubernetes_metadata_filter from 2.6.0 to 2.10.0
+
 ## [v1.12.0]
 
 - Bump base image to v1.12.0
